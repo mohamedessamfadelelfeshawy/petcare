@@ -1,0 +1,221 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.main{
+    background-image: url("../images/log.png");
+    height: 100vh; background-position: center; background-size: cover;
+}
+.main1{
+    height: 15%;
+    display: flex;
+}
+.main1 img{
+    width: 100px; height: 80px; margin: 15px 0px 0px 25px;
+}
+.main1 p{
+    font: normal normal 900 56px/67px Aileron; margin-top: 30px; font-weight: bold; color:#269A41;   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.main1 span{
+    color: #269A41
+}
+.main2 div{
+   margin-top: 200px; margin-left: 65%;
+}
+.main2 div input[type=text],
+.main2 div input[type=password]{
+    align-content: center;
+    width: 398.39px; height: 65px; border-radius:15px; text-align: center; margin: 20px; border: 1px solid #707070 ; font-size:30px; 
+}
+input[type=submit]{
+   background-color: #269A41; color: white;  width: 327px; height: 65px;  border-radius: 100px; margin-left: 60px; font-size: 33px;
+   margin-top: 10px; border: none; box-shadow: 5px 5px 10px rgb(112 112 112/50%); 
+}
+
+.main2 div h2{
+    color: white; font-weight: bold; margin-left: 60px; margin-top: 20px; font-size: 26px;
+}
+.main2 div h2 a{
+    color: green;
+}
+
+/* responsive*/
+
+@media (max-width:767px){
+    
+            .main{
+            background-image: url("../images/log.png");
+            height: 100vh; width: 100%; background-position: center; background-size: 100vh 100%;
+            
+              }
+              .main1{
+                display: flex;
+                
+            }
+            .main1 img{
+                width: 75px; height: 60px; margin: 15px 0px 0px 25px;
+            }
+            .main1 p{
+               font-size: 30px; margin-top: 30px; margin-left: 10px;   font-weight: bold;    color: #269A41; 
+            }
+            .main1 span{
+                color: #269A41
+            }
+        .main2 div{
+            margin-top: 180px; margin-left: 390px;
+         }
+         .main2 div input[type=text],
+         .main2 div input[type=password]{
+             align-content: center;
+             width: 170px; height: 60px; border-radius: 15px; text-align: center; margin: 20px 20px 20px 150px; border: 1px solid #707070 ; font-size:15px; 
+         }
+         input[type=submit]{
+            background-color: #269A41; color: white;  width: 100px; height: 60px;  border-radius: 200px; margin-left: 190px; font-size: 20px;
+            margin-top: 5px; border: none; box-shadow: 5px 5px 10px rgb(112 112 112/50%);  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         }
+         
+         .main2 div h2{
+             color: white; font-weight: bold; margin-left: 135px; margin-top: 20px; font-size: 15px;
+         }
+         .main2 div h2 a{
+             color: green;
+         }
+  
+  
+  
+  }
+  
+    /* media small sereen rules*/
+@media (min-width:768px) and (max-width:991px){
+    .main{
+        background-image: url("../images/log.png");
+        height: 100vh; width: 100%;  background-position: center; background-size: cover;
+    }
+    .main1{
+        display: flex;
+    }
+    .main1 img{
+        width: 100px; height: 80px; margin: 15px 0px 0px 25px;
+    }
+    .main1 p{
+       font-size: 30px; margin-top: 40px;   font-weight: bold;  color: #269A41;
+    }
+    .main1 span{
+        color: #269A41
+    }
+    .main2 div{
+       margin-top: 200px; margin-left: 70%;
+    }
+    .main2 div input[type=text],
+    .main2 div input[type=password]{
+        align-content: center;
+        width: 215px; height: 60px; border-radius: 15px; text-align: center; margin: 15px; border: 1px solid #707070 ; font-size:15px; 
+    }
+    input[type=submit]{
+        background-color: #269A41; color: white;  width: 150px; height: 60px;  border-radius: 200px; margin-left: 60px; font-size: 20px;
+       margin-top: 10px; border: none; box-shadow: 5px 5px 10px rgb(112 112 112/50%);  
+    }
+    
+    .main2 div h2{
+        color: white; font-weight: bold; margin-left: 40px; margin-top: 20px; font-size: 15px;
+    }
+    .main2 div h2 a{
+        color: green;
+    }
+  }
+  
+  
+     /* media medium sereen rules*/
+      @media (min-width:992px) and (max-width:1199px){
+          
+        .main{
+            background-image: url("../images/log.png");
+            height: 100vh; width: 100%;  background-position: center; background-size: cover;
+            
+        }
+        .main1{
+            display: flex;
+     
+        }
+        .main1 img{
+            width: 100px; height: 80px; margin: 15px 0px 0px 25px;
+        }
+        .main1 p{
+           font-size: 30px; margin-top: 40px; font-weight: bold;   color: #269A41; 
+        }
+        .main1 span{
+            color: #269A41
+        }
+        .main2 div{
+           margin-top: 200px; margin-left: 70%;
+        }
+        .main2 div input[type=text],
+        .main2 div input[type=password]{
+            align-content: center;
+            width: 280px; height: 65px; border-radius: 15px; text-align: center; margin: 20px; border: 1px solid #707070 ; font-size:20px;
+        }
+        input[type=submit]{
+            background-color: #269A41; color: white;  width: 200px; height: 65px;  border-radius: 200px; margin-left: 60px; font-size: 20px;
+           margin-top: 10px; border: none; box-shadow: 5px 5px 10px rgb(112 112 112/50%); 
+        }
+        
+        .main2 div h2{
+            color: white; font-weight: bold; margin-left: 40px; margin-top: 20px; font-size: 19px;
+        }
+        .main2 div h2 a{
+            color: green;
+        }
+  
+  
+    }
+  
+  
+   @media(min-width:1200px) and (max-width:1629px){
+     
+    .main{
+        background-image: url("../images/log.png");
+        height: 100vh; width: 100%; background-position: center; background-size: cover;
+
+    }
+    .main1{
+     
+        display: flex;
+
+    }
+    .main1 img{
+        width: 100px; height: 80px; margin: 15px 0px 0px 25px;
+    }
+    .main1 p{
+       font-size: 30px; margin-top: 40px;   font-weight: bold;   color: #269A41
+    }
+    .main1 span{
+        color: #269A41
+    }
+    .main2 div{
+       margin-top: 150px; margin-left: 70%;
+    }
+    .main2 div input[type=text],
+    .main2 div input[type=password]{
+        align-content: center;
+        width: 300px; height: 65px; border-radius: 15px;  text-align: center; margin: 20px; border: 1px solid #707070 ; font-size:25px; 
+    }
+    input[type=submit]{
+        background-color: #269A41; color: white;  width: 200px; height: 65px;  border-radius: 200px; margin-left: 60px; font-size: 25px;
+       margin-top: 10px; border: none; box-shadow: 5px 5px 10px rgb(112 112 112/50%);  
+    }
+    
+    .main2 div h2{
+        color: white; font-weight: bold; margin-left: 30px; margin-top: 20px;
+    }
+    .main2 div h2 a{
+        color: green;
+    }
+   } 

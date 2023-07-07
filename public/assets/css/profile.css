@@ -1,0 +1,1850 @@
+/* *********** */
+/* middle */
+
+
+
+
+/* footer**/
+.mainfooter {
+  background-color: #110f0f;
+  width: 100%;
+  height: 35%;
+  margin-top: 50px;
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.footer1,
+.footer2,
+.footer3 {
+  margin-top: 3%;
+}
+
+.footer1 h2,
+.footer2 h2,
+.footer3 h2 {
+  color: white;
+  font-size: 40px;
+}
+
+.footer1 div,
+.footer2 div,
+.footer3 div {
+  width: 60px;
+  height: 5px;
+  background-color: white;
+}
+
+.footer2 div {
+  margin-left: 10px;
+}
+
+.footer1 p {
+  color: #707070;
+  width: 390px;
+  height: 169px;
+  font-size: 30px;
+}
+
+.footer2 ul {
+  list-style: none;
+  margin-left: -25px;
+}
+
+.footer2 ul li a {
+  color: #707070;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.footer3 p {
+  color: #707070;
+  font-size: 30px;
+  width: 320px;
+}
+
+.footer4 {
+  display: flex;
+  justify-content: center;
+}
+
+.footer4 h2 {
+  color: #707070;
+  font-size: 25px;
+  font-weight: bold;
+}
+.mainbooking {
+  background-image: url("../images/booking.jpg");
+  height: 75vh;
+  width: 100%;
+  background-size: 100% 75vh;
+  margin-top: 6px;
+}
+.textphoto {
+  height: 100%;
+  background-color: rgb(17 15 15/15%);
+}
+/* boooking */
+.imgbook {
+  background-image: url("../images/booking.jpg");
+  height: 75vh;
+  width: 100%;
+  padding-top: 3%;
+  background-size: 100% 75vh;
+  margin-top: 6px;
+}
+.booking {
+  background-color: rgb(17 45 78/40%);
+  width: 80%;
+  margin: auto;
+  color: white;
+  padding: 50px;
+  border-radius: 20px 20px 20px 0px;
+}
+.bkdoc {
+  font-weight: bold;
+  font-size: 45px;
+  text-align: center;
+  margin-top: 4%;
+}
+
+form .form-group label {
+  font-size: 35px;
+}
+form .form-group .form-control {
+  height: 50px;
+}
+.btnbook {
+  background-color: #28a745;
+  width: 250px;
+  height: 50px;
+  font-weight: bold;
+  margin-left: 80%;
+  margin-top: 5%;
+  font-size: 25px;
+  color: white;
+  border-radius: 10px;
+}
+
+/* end boooking */
+
+/* Mybooking */
+.mybooking {
+  background-image: url("../images/mybboking.jpg");
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+  background-size: 100% 100%;
+  margin: 6px 0px -50px 0px;
+}
+.tablebooking {
+  width: 85%;
+  margin: 50px;
+  border: 2px solid white;
+  background-color: rgb(17 45 78/85%);
+  border-radius: 20px;
+}
+
+/* End my booking */
+
+/* Vet booking  */
+.tablebooking2 {
+  width: 100%;
+  margin-right: 500px;
+  border: 1px solid white;
+  background-color: rgb(17 45 78/85%);
+  border-radius: 20px;
+}
+.tablebooking td,
+.tablebooking th,
+.tablebooking2 td,
+.tablebooking2 th {
+  border: 2px solid white;
+  padding: 30px;
+  font-size: 27px;
+  font-weight: bolder;
+  color: white;
+}
+.vetbooking {
+  background-image: url("../images/vettbooking.jpg");
+  background-attachment: fixed;
+
+  height: 100%;
+  width: 100%;
+  background-size: 100% 100%;
+
+  margin: 6px 0px -50px 0px;
+}
+/* End vet booking */
+
+/* Add prouduct */
+.addproduct {
+  background-image: url("../images/add2_background.jpeg");
+  height: 100vh;
+  width: 100%;
+  background-size: 100% 75vh;
+  margin-top: 6px;
+  margin-bottom: -50px;
+}
+
+form .section2,
+form .section3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.newproduct {
+  background-color: rgb(17 45 78/55%);
+  color: white;
+  width: 90%;
+  border-radius: 10px;
+  height: 80vh;
+  margin: auto;
+}
+.newproduct h1 {
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+}
+.newproduct form label {
+  font-size: 35px;
+  padding: 5px;
+  margin-left: 100px;
+}
+#img {
+  background-color: white;
+  color: #28a745;
+}
+.ww::file-selector-button {
+  background-color: #28a745;
+  color: white;
+  padding: 6px;
+  font-size: 25px;
+}
+.section1 {
+  width: 100%;
+  margin: 5% 0px 0px 60%;
+}
+
+.section1 select {
+  width: 400px;
+  font-size: 25px;
+  margin-left: 100px;
+}
+
+.newproduct input {
+  width: 700px;
+  margin-left: 100px;
+}
+#btnproduct {
+  width: 400px;
+  font-size: 35px;
+  margin: 30px 0 0 70%;
+  padding: 10px;
+  background-color: #28a745;
+  color: #112d4e;
+}
+
+/* End Add prouduct */
+
+/* servies */
+.main7 {
+  background-image: url("../images/about.png");
+  height: 75vh;
+  width: 100%;
+  background-size: 100% 75vh;
+  margin-top: 6px;
+  padding-top: 2%;
+}
+.mainn {
+  width: 85%;
+  margin: auto;
+  background-color: rgb(18, 46, 79, 0.6);
+  color: white;
+  padding: 20px;
+  font-size: 25px;
+  height: 60vh;
+}
+.main7 .center {
+  margin-left: 85%;
+  font-size: 50px;
+  font-weight: bold;
+}
+.mainn label,
+select {
+  padding: 6px;
+  font-size: 30px;
+}
+.btnservice {
+  margin-left: 80%;
+  width: 300px;
+  font-size: 30px;
+  text-align: center;
+}
+
+#inputlg {
+  margin-left: 70%;
+  width: 500px;
+}
+#check {
+  width: 300px;
+  font-size: 20px;
+  margin-left: 85%;
+}
+
+
+
+
+.divone {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  left: 50%;
+}
+.divtwo {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  left: 50%;
+}
+/* end servies */
+form .catogory1 {
+  margin-left: 78%;
+  width: 50%;
+  text-align: center;
+}
+
+
+/* edit */
+.chphoto{
+    background-color:#112d4e;color:white;padding:20px;border-radius:10px; margin-top:35px; width:490px
+}
+
+
+.filechange {
+  width: 450px;
+  color: #707070;
+}
+.filechange::file-selector-button {
+  background-color: #707070;
+  color: white;
+  padding: 6px;
+  font-size: 25px;
+  width: fit-content;
+}
+div .filechangeph {
+  background-color: #28a745;
+  margin-top: 15px;
+}
+.edit {
+  margin-top: 10%;
+  color: #112d4e;
+}
+.labeledit label {
+  color: white;
+}
+.labeledit .updateedit {
+  margin-left: 42%;
+  width: 250px;
+}
+/*  end edit */
+
+/* profile */
+
+.middle {
+  width: 100%;
+}
+
+.middle .profile_photo {
+  width: 100%;
+  height: 526px;
+  background-image: url("../images/sean-oulashin-KMn4VEeEPR8-unsplash.jpg");
+  background-size: 100% 526px;
+  padding-top: 1px;
+}
+
+
+.img-p {
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+
+
+.middle .profile_photo h1,
+.middle .profile_photo p {
+  font: normal normal bold 70px/81px Arial Rounded MT;
+}
+
+.addpetme {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  gap: 90px 30px;
+  justify-content: space-around;
+}
+.addpetme .maincard {
+  width: 550px;
+  height: 60%;
+}
+.maincard img {
+  width: 100%;
+  height: 350px;
+}
+/* end profile */
+
+
+
+/* add pet */
+.addpetanmail {
+  background-color: rgb(17 46 79 /75%);
+  color: white;
+  border-radius: 10px;
+}
+.addpetanmail h1 {
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold;
+}
+.addpetanmail div {
+  padding: 10px;
+}
+.imgaddpet {
+  background-image: url("../images/addpet.jpg");
+  height: 85vh;
+  width: 100%;
+  background-size: 100% 85vh;
+  margin-top: 6px; margin-bottom: -50px;
+}
+
+/* end add pet */
+
+
+
+/* responsive*/
+@media (max-width: 767px) {
+  /* Mybooking */
+  .mybooking {
+      background-image: url("../images/mybboking.jpg");
+      background-attachment: fixed;
+      height: 100%;
+      width: 100%;
+      background-size: 100% 100%;
+      margin-bottom: -50px;
+      margin-top: 6px;
+  }
+  .tablebooking {
+      width: 85%;
+      margin: 50px;
+      border: 2px solid white;
+      background-color: rgb(17 45 78/85%);
+      border-radius: 20px;
+  }
+
+  /* End my booking */
+
+  .textphoto .nondev {
+      width: 30%;
+  }
+
+  /* Vet booking  */
+  .tablebooking2 {
+      width: 30%;
+      margin-left: -150px;
+      border: 1px solid white;
+      background-color: rgb(17 45 78/85%);
+      border-radius: 20px;
+  }
+
+  .tablebooking2 td,
+  .tablebooking2 th,
+  .tablebooking td,
+  .tablebooking th {
+      border: 2px solid white;
+      padding: 10px;
+      font-size: 15px;
+      font-weight: bolder;
+      color: white;
+  }
+  .vetbooking {
+      background-image: url("../images/vettbooking.jpg");
+      background-attachment: fixed;
+
+      height: 100%;
+      width: 100%;
+      background-size: 100% 100%;
+
+      margin-top: 6px;
+      margin-bottom: -50px;
+  }
+  /* End vet booking */
+
+  /* servics */
+
+  .main7 {
+      background-image: url("../images/about.png");
+      height: 75vh;
+      width: 100%;
+      background-size: 100% 75vh;
+      margin: 6px 0px -50px 0px;
+      padding-top: 2%;
+  }
+  .mainn {
+      width: 85%;
+      margin: auto;
+      background-color: rgb(18, 46, 79, 0.6);
+      color: white;
+      padding: 20px;
+      margin-top: 40px;
+      height: 52vh;
+  }
+  .main7 .center {
+      /* كلمه */
+      margin-left: 85%;
+      font-size: 25px;
+      font-weight: bold;
+  }
+  .mainn label,
+  select {
+      padding: 6px;
+      font-size: 25px;
+  }
+  .btnservice {
+      /* select */
+      margin-left: 72%;
+      width: 170px;
+      font-size: 20px;
+      text-align: center;
+  }
+  .divone {
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+      left: 50%;
+      margin-left: -40%;
+      width: 170%;
+      padding: 8px 10px 0px 10px;
+  }
+  .divtwo {
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+      left: 50%;
+      margin-left: -40%;
+      width: 170%;
+      padding: 8px 10px 0px 10px;
+  }
+  #check {
+      /* checkk */
+      width: 180px;
+      font-size: 20px;
+      margin-left: 68%;
+  }
+
+  #inputlg {
+      /* result */
+      margin-left: 57%;
+      width: 250px;
+      height: 60px;
+  }
+  /* end servicesssssssssssssssssssssssssss */
+
+  /* boooking */
+  .imgbook {
+      background-image: url("../images/booking.jpg");
+      height: 75vh;
+      width: 100%;
+      padding-top: 3%;
+      background-size: 100% 75vh;
+      margin-top: 6px;
+      margin-bottom: -50px;
+  }
+  .booking {
+      background-color: rgb(17 45 78/40%);
+      width: 80%;
+      margin: auto;
+      color: white;
+      padding: 50px;
+      border-radius: 20px 20px 20px 0px;
+  }
+  .bkdoc {
+      font-weight: bold;
+      font-size: 35px;
+      text-align: center;
+      margin-top: 4%;
+  }
+
+  form .form-group label {
+      font-size: 25px;
+      margin-left: 50%;
+  }
+  form .form-group .form-control {
+      height: 40px;
+      margin-left: 50%;
+  }
+  .btnbook {
+      background-color: #28a745;
+      width: 150px;
+      height: 40px;
+      font-weight: bold;
+      margin-left: 70%;
+      margin-top: 5%;
+      font-size: 20px;
+      color: white;
+      border-radius: 10px;
+  }
+
+  /* endboooking */
+
+  /* Add proudct */
+  .addproduct {
+      background-image: url("../images/add2_background.jpeg");
+      height: 100vh;
+      width: 100%;
+      background-size: 100% 75vh;
+      margin-bottom: -50px;
+  }
+
+  form .section2,
+  form .section3 {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .newproduct {
+      background-color: rgb(17 45 78/55%);
+      color: white;
+      width: 90%;
+      border-radius: 10px;
+      height: 90vh;
+      margin: auto;
+  }
+  .newproduct h1 {
+      font-size: 30px;
+      text-align: center;
+      font-weight: bold;
+  }
+  .newproduct form label {
+      font-size: 25px;
+      padding: 5px;
+      margin-left: 50px;
+  }
+  #img {
+      background-color: white;
+      color: #28a745;
+  }
+  .ww::file-selector-button {
+      background-color: #28a745;
+      color: white;
+      padding: 6px;
+      font-size: 25px;
+  }
+  .section1 {
+      width: 100%;
+      margin: 5% 0px 0px 60%;
+  }
+
+  .section1 select {
+      width: 250px;
+      font-size: 25px;
+      margin-left: -30px;
+  }
+
+  .newproduct input {
+      width: 250px;
+  }
+  #btnproduct {
+      width: 200px;
+      font-size: 20px;
+      height: 50px;
+      background-color: #28a745;
+      color: #112d4e;
+  }
+
+  /* End Add prouduct */
+
+    /* add pet */
+    .mainpet .addmainpet input{
+      position: absolute;
+      left: 32%;
+      height: 50px;
+
+    }
+
+  .addpetanmail h1 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+  .imgaddpet {
+    background-image: url("../images/addpet.jpg");
+    height: 85vh;
+    width: 100%;
+    background-size: 100% 85vh;
+    margin-top: 6px; margin-bottom: -50px;
+  }
+  /* end add pet */
+
+  /* edit */
+  .chphoto{
+  margin-top:240px;
+}
+.filechange {
+  width: 450px;
+  color: #707070;
+}
+.filechange::file-selector-button {
+  background-color: #707070;
+  color: white;
+  padding: 6px;
+  font-size: 25px;
+  width: fit-content;
+}
+div .filechangeph {
+  background-color: #28a745;
+  margin-top: 15px;
+  font-size: 15px;
+  width: 200px;
+}
+.edit {
+  margin-top: 30%; margin-bottom: 120px;
+
+}
+.labeledit{
+  margin-left: -200px;
+}
+.labeledit input{
+  width: 200px;
+}
+.labeledit label {
+  color: white;
+}
+.labeledit .updateedit {
+  margin-left: 280px;
+  width: 250px;
+}
+
+/*  end edit */
+
+  .footer {
+      display: grid;
+      grid-template-columns: 1fri;
+  }
+    /* profile */
+
+.middle {
+  width: 100%;
+}
+.middle .profile_photo {
+  width: 100%;
+  height: 526px;
+  background-image: url("../images/sean-oulashin-KMn4VEeEPR8-unsplash.jpg");
+  background-size: 100% 526px;
+  padding-top: 1px;
+}
+.img-p {
+  width: 300px;
+  height: 280px;
+  border-radius: 50%;
+  margin: 20px 0px 0px 88%;
+}
+.middle .profile_photo h1,
+.middle .profile_photo p {
+  font: normal normal bold 25px/30px Arial Rounded MT;
+display: none;
+}
+.addpetme {
+
+  display: grid;
+  grid-template-columns: 40% 40%;
+  gap: 25px 20px;
+  justify-content: space-around;
+  margin-bottom: 330px;
+}
+.addpetme .maincard {
+  width: 400px;
+  height: 60%;
+}
+.maincard img {
+  width: 100%;
+  height: 350px;
+}
+.middle .profile_photo .editprofile {
+    width: 200px;
+    font-size: 10px;
+    position: relative;
+    bottom:160%;
+    left: 250%;
+}
+
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Mybooking */
+  .mybooking {
+      margin-bottom: 280px;
+  }
+
+  /* End my booking */
+
+  .textphoto .nondev {
+      width: 50%;
+  }
+
+  /* Vet booking  */
+  .tablebooking2 {
+      width: 50%;
+      margin-left: -140px;
+  }
+
+  .tablebooking2 td,
+  .tablebooking2 th,
+  .tablebooking td,
+  .tablebooking th {
+      padding: 15px;
+      font-size: 18px;
+  }
+  .vetbooking {
+      margin-bottom: 280px;
+  }
+  /* End vet booking */
+
+  /* Servies */
+
+  .main7 {
+      background-image: url("../images/about.png");
+      height: 75vh;
+      width: 100%;
+      background-size: 100% 75vh;
+      margin: 6px 0px 280px 0px;
+      padding-top: 2%;
+  }
+  .mainn {
+      width: 85%;
+      margin: auto;
+      background-color: rgb(18, 46, 79, 0.6);
+      color: white;
+      padding: 20px;
+      margin-top: 40px;
+      height: 52vh;
+  }
+  .main7 .center {
+      /* كلمه */
+      margin-left: 80%;
+      font-size: 25px;
+      font-weight: bold;
+  }
+  .mainn label,
+  select {
+      padding: 6px;
+      font-size: 25px;
+  }
+  .btnservice {
+      /* select */
+      margin-left: 75%;
+      width: 190px;
+      font-size: 20px;
+      text-align: center;
+  }
+  .divone {
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+      left: 50%;
+      margin-left: -30%;
+      width: 170%;
+      padding: 8px 10px 0px 10px;
+  }
+  .divtwo {
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+      left: 50%;
+      margin-left: -28%;
+      width: 170%;
+      padding: 8px 10px 0px 10px;
+  }
+  #check {
+      /* checkk */
+      width: 190px;
+      font-size: 20px;
+      margin-left: 80%;
+  }
+
+  #inputlg {
+      /* result */
+      margin-left: 70%;
+      width: 250px;
+      height: 60px;
+
+      /* end servicesssssssssssssssssssssssssss */
+  }
+
+  /* boooking */
+  .imgbook {
+      background-image: url("../images/booking.jpg");
+      height: 75vh;
+      width: 100%;
+      padding-top: 3%;
+      background-size: 100% 75vh;
+      margin-top: 6px;
+      margin-bottom: 280px;
+  }
+  .booking {
+      background-color: rgb(17 45 78/40%);
+      width: 80%;
+      margin: auto;
+      color: white;
+      padding: 50px;
+      border-radius: 20px 20px 20px 0px;
+  }
+  .bkdoc {
+      font-weight: bold;
+      font-size: 35px;
+      text-align: center;
+      margin-top: 4%;
+  }
+
+  form .form-group label {
+      font-size: 28px;
+      margin-left: 50%;
+  }
+  form .form-group .form-control {
+      height: 40px;
+      margin-left: 50%;
+  }
+  .btnbook {
+      background-color: #28a745;
+      width: 150px;
+      height: 40px;
+      font-weight: bold;
+      margin-left: 70%;
+      margin-top: 5%;
+      font-size: 20px;
+      color: white;
+      border-radius: 10px;
+  }
+
+  /* endboooking */
+
+  /* Add proudct */
+  .addproduct {
+      background-image: url("../images/add2_background.jpeg");
+      height: 120vh;
+      width: 100%;
+      background-size: 100% 100vh;
+      margin-top: 6px;
+  }
+
+  form .section2,
+  form .section3 {
+      display: flex;
+      justify-content: space-around;
+      margin-left: 100px;
+  }
+
+  .newproduct {
+      background-color: rgb(17 45 78/55%);
+      color: white;
+      width: 95%;
+      border-radius: 10px;
+      height: 80vh;
+      margin: 300px auto;
+  }
+
+  .newproduct h1 {
+      font-size: 30px;
+      text-align: center;
+      font-weight: bold;
+  }
+  .newproduct form label {
+      font-size: 25px;
+      padding: 5px;
+      margin-left: 100px;
+  }
+  #img {
+      background-color: white;
+      color: #28a745;
+  }
+  .ww::file-selector-button {
+      background-color: #28a745;
+      color: white;
+      padding: 6px;
+      font-size: 25px;
+  }
+  .section1 {
+      width: 100%;
+      margin: 5% 0px 0px 60%;
+  }
+
+  .section1 select {
+      width: 250px;
+      font-size: 25px;
+      margin-left: 20px;
+      text-align: center;
+  }
+
+  .newproduct input {
+      width: 250px;
+
+      margin-right: 10px;
+  }
+  #btnproduct {
+      width: 200px;
+      font-size: 20px;
+      height: 50px;
+      background-color: #28a745;
+      color: #112d4e;
+  }
+
+  /* End Add prouduct */
+
+
+  /* add pet */
+  .mainpet .addmainpet input{
+    position: absolute;
+    left: 32%;
+    height: 50px;
+  }
+
+.addpetanmail h1 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.imgaddpet {
+  background-image: url("../images/addpet.jpg");
+  height: 85vh;
+  width: 100%;
+  background-size: 100% 85vh;
+  margin-top: 6px; margin-bottom: 250px;
+}
+
+
+/* end add pet */
+/* edit */
+.chphoto{
+  margin-top:135px;
+}
+.filechange {
+  width: 450px;
+  color: #707070;
+}
+.filechange::file-selector-button {
+  background-color: #707070;
+  color: white;
+  padding: 6px;
+  font-size: 25px;
+  width: fit-content;
+}
+div .filechangeph {
+  background-color: #28a745;
+  margin-top: 15px;
+  font-size: 15px;
+  width: 200px;
+}
+.edit {
+  margin-top: 30%; margin-bottom: 350px;
+
+}
+.labeledit{
+  margin-left: -300px;
+}
+.labeledit input{
+  width: 200px;
+}
+.labeledit label {
+  color: white;
+}
+.labeledit .updateedit {
+  margin-left: 450px;
+  width: 250px;
+}
+
+/*  end edit */
+
+  .mainfooter {
+      margin-top: 10%;
+  }
+  .footer {
+      display: grid;
+      grid-template-columns: 1fri;
+  }
+
+  /* profile */
+
+.middle {
+  width: 100%;
+}
+.middle .profile_photo {
+  width: 100%;
+  height: 526px;
+  background-image: url("../images/sean-oulashin-KMn4VEeEPR8-unsplash.jpg");
+  background-size: 100% 526px;
+  padding-top: 1px;
+}
+.img-p {
+  width: 200px;
+  height: 350px;
+  border-radius: 50%;
+  margin: 20px;
+}
+.middle .profile_photo h1,
+.middle .profile_photo p {
+  font: normal normal bold 25px/30px Arial Rounded MT;
+}
+.addpetme {
+
+  display: grid;
+  grid-template-columns: 40% 40%;
+  gap: 25px 20px;
+  justify-content: space-around;
+  margin-bottom: 330px;
+}
+.addpetme .maincard {
+  width: 400px;
+  height: 60%;
+}
+.maincard img {
+  width: 100%;
+  height: 350px;
+}
+.middle .profile_photo .editprofile a{
+    font-size: 10px;
+}
+/* end profile */
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Mybooking */
+  .mybooking {
+      margin-bottom: -50px;
+  }
+
+  /* End my booking */
+
+  .textphoto .nondev {
+      width: 50%;
+  }
+
+  /* Vet booking  */
+  .tablebooking2 {
+      margin-left: -170px;
+  }
+
+  .tablebooking2 td,
+  .tablebooking2 th,
+  .tablebooking td,
+  .tablebooking th {
+      padding: 20px;
+      font-size: 23px;
+  }
+  .vetbooking {
+      margin-bottom: -50px;
+  }
+  /* End vet booking */
+
+  /* servies */
+
+  .main7 {
+      background-image: url("../images/about.png");
+      height: 75vh;
+      width: 100%;
+      background-size: 100% 75vh;
+      margin: 6px 0px -70px 0px;
+      padding-top: 2%;
+  }
+  .mainn {
+      width: 85%;
+      margin: auto;
+      background-color: rgb(18, 46, 79, 0.6);
+      color: white;
+      padding: 20px;
+      font-size: 25px;
+      height: 60vh;
+  }
+  .main7 .center {
+      /* كلمه */
+      margin-left: 85%;
+      font-size: 50px;
+      font-weight: bold;
+  }
+  .mainn label,
+  select {
+      padding: 6px;
+      font-size: 30px;
+  }
+  .btnservice {
+      /* select */
+      margin-left: 70%;
+      width: 300px;
+      font-size: 30px;
+      text-align: center;
+  }
+  .divone {
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+      left: 50%;
+      margin-left: -30%;
+      width: 150%;
+      padding: 0px 10px 0px 10px;
+  }
+  .divtwo {
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+      left: 50%;
+      margin-left: -28%;
+      width: 150%;
+      padding: 0px 10px 0px 10px;
+  }
+  #check {
+      /* checkk */
+      width: 300px;
+      font-size: 20px;
+      margin-left: 70%;
+  }
+
+  #inputlg {
+      /* result */
+      margin-left: 50%;
+      width: 410px;
+      height: 60px;
+  }
+  /* end servicesssssssssssssssssssssssssss */
+
+  /* boooking */
+  .imgbook {
+      background-image: url("../images/booking.jpg");
+      height: 75vh;
+      width: 100%;
+      padding-top: 3%;
+      background-size: 100% 75vh;
+      margin-top: 6px;
+      margin-bottom: -100px;
+  }
+  .booking {
+      background-color: rgb(17 45 78/40%);
+      width: 80%;
+      margin: auto;
+      color: white;
+      padding: 50px;
+      border-radius: 20px 20px 20px 0px;
+  }
+  .bkdoc {
+      font-weight: bold;
+      font-size: 35px;
+      text-align: center;
+      margin-top: 4%;
+  }
+
+  form .form-group label {
+      font-size: 28px;
+  }
+  form .form-group .form-control {
+      height: 40px;
+  }
+  .btnbook {
+      background-color: #28a745;
+      width: 250px;
+      height: 50px;
+      font-weight: bold;
+      margin-left: 70%;
+      margin-top: 5%;
+      font-size: 20px;
+      color: white;
+      border-radius: 10px;
+  }
+
+  /* endboooking */
+
+  /* Add proudct */
+  .addproduct {
+      background-image: url("../images/add2_background.jpeg");
+      height: 120vh;
+      width: 100%;
+      background-size: 100% 100vh;
+      margin-top: 6px;
+      margin-bottom: -300px;
+  }
+
+  form .section2,
+  form .section3 {
+      display: flex;
+      justify-content: space-around;
+      margin-left: 250px;
+  }
+
+  .newproduct {
+      background-color: rgb(17 45 78/55%);
+      color: white;
+      width: 95%;
+      border-radius: 10px;
+      height: 80vh;
+      margin: 300px auto;
+  }
+
+  .newproduct h1 {
+      font-size: 30px;
+      text-align: center;
+      font-weight: bold;
+  }
+  .newproduct form label {
+      font-size: 25px;
+      padding: 5px;
+      margin-left: 100px;
+  }
+  #img {
+      background-color: white;
+      color: #28a745;
+  }
+  .ww::file-selector-button {
+      background-color: #28a745;
+      color: white;
+      padding: 6px;
+      font-size: 25px;
+  }
+  .section1 {
+      width: 100%;
+      margin: 5% 0px 0px 60%;
+  }
+
+  .section1 select {
+      width: 250px;
+      font-size: 25px;
+      margin-left: 20px;
+      text-align: center;
+  }
+
+  .newproduct input {
+      width: 350px;
+
+      margin-right: 10px;
+  }
+  #btnproduct {
+      width: 200px;
+      font-size: 20px;
+      height: 50px;
+      background-color: #28a745;
+      color: #112d4e;
+  }
+
+  /* End Add prouduct */
+
+  /* add pet */
+
+
+.addpetanmail h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+.imgaddpet {
+  background-image: url("../images/addpet.jpg");
+  height: 85vh;
+  width: 100%;
+  background-size: 100% 85vh;
+  margin-top: 6px; margin-bottom: -50px;
+}
+/* edit profile */
+.edit {
+  margin-top: 20%;
+  color: #112d4e;
+}
+/* end edit profile */
+/* profile */
+
+.middle {
+  width: 100%;
+}
+.middle .profile_photo {
+  width: 100%;
+  height: 526px;
+  background-image: url("../images/sean-oulashin-KMn4VEeEPR8-unsplash.jpg");
+  background-size: 100% 526px;
+  padding-top: 1px;
+}
+.img-p {
+  width: 280px;
+  height: 450px;
+  border-radius: 50%;
+  margin: 20px;
+}
+.middle .profile_photo h1,
+.middle .profile_photo p {
+  font: normal normal bold 30px/40px Arial Rounded MT;
+}
+.addpetme {
+
+  display: grid;
+  grid-template-columns: 40% 40%;
+  gap: 25px 20px;
+  justify-content: space-around;
+}
+.addpetme .maincard {
+  width: 400px;
+  height: 60%;
+}
+.maincard img {
+  width: 100%;
+  height: 350px;
+}
+/* end profile */
+
+}
+
+@media (min-width: 1200px) and (max-width: 1629px) {
+  /* Mybooking */
+  .mybooking {
+      margin-bottom: -50px;
+  }
+
+  /* End my booking */
+
+  .textphoto .nondev {
+      width: 70%;
+  }
+
+  /* Vet booking  */
+  .tablebooking2 {
+      margin-left: -10px;
+  }
+
+  .tablebooking2 td,
+  .tablebooking2 th,
+  .tablebooking td,
+  .tablebooking th {
+      padding: 20px;
+      font-size: 23px;
+  }
+  .vetbooking {
+      margin-bottom: -50px;
+  }
+  /* End vet booking */
+
+  /* servies */
+
+  .main7 {
+      background-image: url("../images/about.png");
+      height: 75vh;
+      width: 100%;
+      background-size: 100% 75vh;
+      margin: 6px 0px -70px 0px;
+      padding-top: 2%;
+  }
+  .mainn {
+      width: 85%;
+      margin: auto;
+      background-color: rgb(18, 46, 79, 0.6);
+      color: white;
+      padding: 20px;
+      font-size: 25px;
+      height: 60vh;
+  }
+  .main7 .center {
+      /* كلمه */
+      margin-left: 88%;
+      font-size: 50px;
+      font-weight: bold;
+  }
+  .mainn label,
+  select {
+      padding: 6px;
+      font-size: 30px;
+  }
+  .btnservice {
+      /* select */
+      margin-left: 78%;
+      width: 300px;
+      font-size: 30px;
+      text-align: center;
+  }
+  .divone {
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+      left: 50%;
+      margin-left: -30%;
+      width: 150%;
+      padding: 0px 10px 0px 10px;
+  }
+  .divtwo {
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+      left: 50%;
+      margin-left: -28%;
+      width: 150%;
+      padding: 0px 10px 0px 10px;
+  }
+  #check {
+      /* checkk */
+      width: 300px;
+      font-size: 20px;
+      margin-left: 78%;
+  }
+
+  #inputlg {
+      /* result */
+      margin-left: 67%;
+      width: 400px;
+      height: 60px;
+  }
+  /* end servicesssssssssssssssssssssssssss */
+
+  /* boooking */
+  .imgbook {
+      background-image: url("../images/booking.jpg");
+      height: 75vh;
+      width: 100%;
+      padding-top: 3%;
+      background-size: 100% 75vh;
+      margin-top: 6px;
+      margin-bottom: -50px;
+  }
+
+  /* endboooking */
+
+  /* Add proudct */
+  .addproduct {
+      background-image: url("../images/add2_background.jpeg");
+      height: 120vh;
+      width: 100%;
+      background-size: 100% 100vh;
+      margin-top: 6px;
+      margin-bottom: -300px;
+  }
+
+  form .section2,
+  form .section3 {
+      display: flex;
+      justify-content: space-around;
+      margin-left: 380px;
+  }
+
+  .newproduct {
+      background-color: rgb(17 45 78/55%);
+      color: white;
+      width: 95%;
+      border-radius: 10px;
+      height: 80vh;
+      margin: 300px auto;
+  }
+
+  .newproduct h1 {
+      font-size: 35px;
+      text-align: center;
+      font-weight: bold;
+  }
+  .newproduct form label {
+      font-size: 25px;
+      padding: 5px;
+      margin-left: 100px;
+  }
+  #img {
+      background-color: white;
+      color: #28a745;
+  }
+  .ww::file-selector-button {
+      background-color: #28a745;
+      color: white;
+      padding: 6px;
+      font-size: 25px;
+  }
+  .section1 {
+      width: 100%;
+      margin: 5% 0px 0px 60%;
+  }
+
+  .section1 select {
+      width: 300px;
+      font-size: 25px;
+      margin-left: 20px;
+      text-align: center;
+  }
+
+  .newproduct input {
+      width: 470px;
+
+      margin-right: 10px;
+  }
+  #btnproduct {
+      width: 200px;
+      font-size: 20px;
+      height: 50px;
+      background-color: #28a745;
+      color: #112d4e;
+  }
+  /* End Add prouduct */
+  /* add pet */
+
+.addpetanmail h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+.addpetanmail div {
+  padding: 10px;
+}
+.imgaddpet {
+  background-image: url("../images/addpet.jpg");
+  height: 85vh;
+  width: 100%;
+  background-size: 100% 85vh;
+  margin-top: 6px;
+}
+
+/* end add pet */
+
+/* edit */
+
+.edit {
+  margin-top: 20%;
+  color: #112d4e;
+}
+
+/*  end edit */
+
+
+/* profile */
+
+.middle {
+  width: 100%;
+}
+.middle .profile_photo {
+  width: 100%;
+  height: 526px;
+  background-image: url("../images/sean-oulashin-KMn4VEeEPR8-unsplash.jpg");
+  background-size: 100% 526px;
+  padding-top: 1px;
+}
+.img-p {
+  width: 300px;
+  height: 450px;
+  border-radius: 50%;
+  margin: 20px;
+}
+.middle .profile_photo h1,
+.middle .profile_photo p {
+  font: normal normal bold 40px/50px Arial Rounded MT;
+}
+.addpetme {
+  display: grid;
+  grid-template-columns: 25% 25% 25%;
+  gap: 40px 30px;
+  justify-content: space-around;
+}
+.addpetme .maincard {
+  width: 400px;
+  height: 60%;
+}
+.maincard img {
+  width: 100%;
+  height: 350px;
+}
+/* end profile */
+}
+
+
+
+@media (min-width: 1630px) and (max-width: 1850px) {
+  /* Mybooking */
+  .mybooking {
+      margin-bottom: -50px;
+  }
+
+  /* End my booking */
+
+  .textphoto .nondev {
+      width: 70%;
+  }
+
+  /* Vet booking  */
+  .tablebooking2 {
+      margin-left: -10px;
+  }
+
+  .tablebooking2 td,
+  .tablebooking2 th,
+  .tablebooking td,
+  .tablebooking th {
+      padding: 20px;
+      font-size: 23px;
+  }
+  .vetbooking {
+      margin-bottom: -50px;
+  }
+  /* End vet booking */
+
+  /* servies */
+
+  .main7 {
+      background-image: url("../images/about.png");
+      height: 75vh;
+      width: 100%;
+      background-size: 100% 75vh;
+      margin: 6px 0px -70px 0px;
+      padding-top: 2%;
+  }
+  .mainn {
+      width: 85%;
+      margin: auto;
+      background-color: rgb(18, 46, 79, 0.6);
+      color: white;
+      padding: 20px;
+      font-size: 25px;
+      height: 60vh;
+  }
+  .main7 .center {
+      /* كلمه */
+      margin-left: 88%;
+      font-size: 50px;
+      font-weight: bold;
+  }
+  .mainn label,
+  select {
+      padding: 6px;
+      font-size: 30px;
+  }
+  .btnservice {
+      /* select */
+      margin-left: 78%;
+      width: 300px;
+      font-size: 30px;
+      text-align: center;
+  }
+  .divone {
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+      left: 50%;
+      margin-left: -30%;
+      width: 150%;
+      padding: 0px 10px 0px 10px;
+  }
+  .divtwo {
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+      left: 50%;
+      margin-left: -28%;
+      width: 150%;
+      padding: 0px 10px 0px 10px;
+  }
+  #check {
+      /* checkk */
+      width: 300px;
+      font-size: 20px;
+      margin-left: 78%;
+  }
+
+  #inputlg {
+      /* result */
+      margin-left: 67%;
+      width: 400px;
+      height: 60px;
+  }
+  /* end servicesssssssssssssssssssssssssss */
+
+  /* boooking */
+  .imgbook {
+      background-image: url("../images/booking.jpg");
+      height: 75vh;
+      width: 100%;
+      padding-top: 3%;
+      background-size: 100% 75vh;
+      margin-top: 6px;
+      margin-bottom: -50px;
+  }
+
+  /* endboooking */
+
+  /* Add proudct */
+  .addproduct {
+      background-image: url("../images/add2_background.jpeg");
+      height: 120vh;
+      width: 100%;
+      background-size: 100% 100vh;
+      margin-top: 6px;
+      margin-bottom: -300px;
+  }
+
+  form .section2,
+  form .section3 {
+      display: flex;
+      justify-content: space-around;
+      margin-left: 380px;
+  }
+
+  .newproduct {
+      background-color: rgb(17 45 78/55%);
+      color: white;
+      width: 95%;
+      border-radius: 10px;
+      height: 80vh;
+      margin: 300px auto;
+  }
+
+  .newproduct h1 {
+      font-size: 35px;
+      text-align: center;
+      font-weight: bold;
+  }
+  .newproduct form label {
+      font-size: 25px;
+      padding: 5px;
+      margin-left: 100px;
+  }
+  #img {
+      background-color: white;
+      color: #28a745;
+  }
+  .ww::file-selector-button {
+      background-color: #28a745;
+      color: white;
+      padding: 6px;
+      font-size: 25px;
+  }
+  .section1 {
+      width: 100%;
+      margin: 5% 0px 0px 60%;
+  }
+
+  .section1 select {
+      width: 300px;
+      font-size: 25px;
+      margin-left: 20px;
+      text-align: center;
+  }
+
+  .newproduct input {
+      width: 470px;
+
+      margin-right: 10px;
+  }
+  #btnproduct {
+      width: 200px;
+      font-size: 20px;
+      height: 50px;
+      background-color: #28a745;
+      color: #112d4e;
+  }
+  /* End Add prouduct */
+
+
+
+
+
+
+}
